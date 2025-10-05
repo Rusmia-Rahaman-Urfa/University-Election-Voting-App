@@ -20,15 +20,15 @@ function VotingApp() {
   const eligible = isSubmitted && age >= 18;
 
   const leading = () => {
-    if (votes.Srejon > votes.Kawser) return "Srejon is leading 🏆";
+    if (votes.Srejon > votes.Kawser) return "Srejon is leading 👀";
     if (votes.Kawser > votes.Srejon) return "Kawser is leading 🏆";
-    if (votes.Srejon || votes.Kawser) return "It's a tie! 🤝";
+    if (votes.Srejon || votes.Kawser) return "It's a tie! 🙂";
     return "No votes cast yet.";
   };
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Student Council Election 🗳️</h1>
+      <h1>BAIUST Student Council Election </h1>
 
       <h2>1. Enter Age</h2>
       <input

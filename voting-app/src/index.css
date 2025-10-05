@@ -46,7 +46,7 @@ h1 {
 }
 
 h1::after {
-  content: " 🗳️";
+  content: " ";
 }
 
 /* Section titles */
